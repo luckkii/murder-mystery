@@ -14,7 +14,7 @@ public class Clue1Button : MonoBehaviour
     Clue5 clue5;
     Clue6 clue6;
     Clue8 clue8;
-   // Notebook notebook;
+    // Notebook notebook;
 
     void Start()
     {
@@ -26,7 +26,8 @@ public class Clue1Button : MonoBehaviour
         clue5 = FindObjectOfType<Clue5>();
         clue6 = FindObjectOfType<Clue6>();
         clue8 = FindObjectOfType<Clue8>();
-       // notebook = FindObjectOfType<Notebook>();
+        // notebook = FindObjectOfType<Notebook>();
+        // notebook.gameObject.SetActive(true);
     }
 
     public void goHome(){
@@ -39,7 +40,7 @@ public class Clue1Button : MonoBehaviour
         clue6.gameObject.SetActive(false);
         clue8.gameObject.SetActive(false);
         Debug.Log("grah");
-       // notebook.gameObject.SetActive(false);
+        // notebook.gameObject.SetActive(false);
         Debug.Log("heloeoeoeooee");
     }
     
