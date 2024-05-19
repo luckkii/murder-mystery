@@ -16,13 +16,8 @@ public class Notes : MonoBehaviour
     }
 
     public void LoadNotes(){
-        if (clues.gameObject.activeSelf) {
-            clues.gameObject.SetActive(false);
-            notebook.gameObject.SetActive(true);
-        }
-        else {
-            clues.gameObject.SetActive(true);
-            notebook.gameObject.SetActive(false);
-        }
+        Debug.Log("brah");
+        clues.gameObject.SetActive(false);
+        notebook.gameObject.SetActive(true);
     }
 }
